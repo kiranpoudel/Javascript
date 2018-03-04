@@ -37,13 +37,9 @@ for( var i=0; i<arr.length;i++)
  				for(var j=newArr.length-1;j>=0;j--)
  				{
  					person=person+ " " +arr[newArr[j]];
- 					
- 				}
- 				for(var j=newArr.length-1;j>=0;j--)
- 				{
- 					
  					arr.splice(newArr[j],1);
  				}
+ 				
  				console.log("person:" +person);
  				newArr=[];
  				i=-1;
